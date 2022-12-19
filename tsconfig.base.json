@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noImplicitOverride": true,
+    "paths": {
+      "nz-date-picker-jalali": ["libs/nz-date-picker-jalali/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "nz-date-picker-jalali",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "ng-zorro-antd": "^14.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

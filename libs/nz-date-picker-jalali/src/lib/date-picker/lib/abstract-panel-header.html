@@ -1,0 +1,60 @@
+<div class="{{ prefixCls }}">
+  <button
+    (click)="superPrevious()"
+    [style.visibility]="showSuperPreBtn ? 'visible' : 'hidden'"
+    class="{{ prefixCls }}-super-prev-btn"
+    role="button"
+    tabindex="-1"
+    title="{{ superPreviousTitle() }}"
+    type="button"
+  >
+    <span class="ant-picker-super-prev-icon"></span>
+  </button>
+  <button
+    (click)="previous()"
+    [style.visibility]="showPreBtn ? 'visible' : 'hidden'"
+    class="{{ prefixCls }}-prev-btn"
+    role="button"
+    tabindex="-1"
+    title="{{ previousTitle() }}"
+    type="button"
+  >
+    <span class="ant-picker-prev-icon"></span>
+  </button>
+
+  <div class="{{ prefixCls }}-view">
+    <ng-container *ngFor="let selector of selectors">
+      <button
+        (click)="selector.onClick()"
+        class="{{ selector.className }}"
+        role="button"
+        title="{{ selector.title || null }}"
+        type="button"
+      >
+        {{ selector.label }}
+      </button>
+    </ng-container>
+  </div>
+  <button
+    (click)="next()"
+    [style.visibility]="showNextBtn ? 'visible' : 'hidden'"
+    class="{{ prefixCls }}-next-btn"
+    role="button"
+    tabindex="-1"
+    title="{{ nextTitle() }}"
+    type="button"
+  >
+    <span class="ant-picker-next-icon"></span>
+  </button>
+  <button
+    (click)="superNext()"
+    [style.visibility]="showSuperNextBtn ? 'visible' : 'hidden'"
+    class="{{ prefixCls }}-super-next-btn"
+    role="button"
+    tabindex="-1"
+    title="{{ superNextTitle() }}"
+    type="button"
+  >
+    <span class="ant-picker-super-next-icon"></span>
+  </button>
+</div>
