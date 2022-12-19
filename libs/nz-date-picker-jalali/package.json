@@ -1,6 +1,17 @@
 {
   "name": "nz-date-picker-jalali",
   "version": "0.0.6",
+  "keywords": [
+    "ant",
+    "design",
+    "angular",
+    "ui",
+    "framework",
+    "frontend",
+    "jalali",
+    "persian",
+    "datepicker"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/psychomet/ng-antd-workspace"
