@@ -19,6 +19,10 @@ Angular DatePicker component library based on Ant Design.
 
 </div>
 
+## [Demo](https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application)
+View DatePickerJalali in action at [https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application](https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application)
+
+
 ## 🖥 Environment Support
 
 * Angular `^14.0.0` [![npm package](https://img.shields.io/npm/v/ng-zorro-antd.svg?style=flat-square)](https://www.npmjs.org/package/ng-zorro-antd)
