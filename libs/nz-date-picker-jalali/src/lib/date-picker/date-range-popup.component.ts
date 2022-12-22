@@ -224,7 +224,6 @@ export class DateRangePopupComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   ngOnInit(): void {
-    console.log('rurrr');
     merge(
       this.datePickerService.valueChange$,
       this.datePickerService.inputPartChange$
