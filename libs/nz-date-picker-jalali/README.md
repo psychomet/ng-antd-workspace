@@ -18,8 +18,8 @@ Angular DatePicker component library based on Ant Design.
 
 </div>
 
-## [Demo](https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application)
-View DatePickerJalali in action at [https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application](https://stackblitz.com/github/psychomet/nz-date-picker-jalali-demo-application)
+## [Demo](https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html)
+View DatePickerJalali in action at [https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html](https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html)
 <img src="https://user-images.githubusercontent.com/42533472/171279996-75478af5-7977-4845-bf56-846c448308ae.gif" alt="jalali-date-picker" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ## 🖥 Environment Support
