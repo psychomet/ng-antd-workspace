@@ -3,5 +3,6 @@
   "dest": "../../dist/libs/nz-date-picker-jalali",
   "lib": {
     "entryFile": "src/index.ts"
-  }
+  },
+  "allowedNonPeerDependencies": ["tslib", "angular", "date-fns", "@ant-design/icons-angular"]
 }
