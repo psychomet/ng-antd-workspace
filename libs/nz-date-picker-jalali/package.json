@@ -1,6 +1,6 @@
 {
   "name": "nz-date-picker-jalali",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "keywords": [
     "ant",
     "design",
@@ -18,10 +18,13 @@
   },
   "peerDependencies": {
     "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "ng-zorro-antd": "^14.3.0"
+    "@angular/core": "^15.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "ng-zorro-antd": "^15.0.0",
+    "@angular/cdk": "^15.0.0",
+    "@ant-design/icons-angular": "^15.0.0",
+    "date-fns": "^2.16.1"
   }
 }

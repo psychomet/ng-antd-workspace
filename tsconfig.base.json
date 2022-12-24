@@ -17,6 +17,7 @@
     "strictNullChecks": false,
     "noImplicitAny": false,
     "noImplicitOverride": true,
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "nz-date-picker-jalali": ["libs/nz-date-picker-jalali/src/index.ts"]
     }
