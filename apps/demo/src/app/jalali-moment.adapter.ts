@@ -21,8 +21,12 @@ export class JalaliMomentDateAdapter extends NzDateAdapter<Moment> {
     return moment();
   }
 
-  deserialize(input: string | number): Moment {
-    return moment(input);
+  deserialize(input: Date | string | number | never): Moment {
+    if (input instanceof Date || typeof input === 'string' || typeof input === 'number') {
+      return moment(new Date(input));
+    }
+
+    throw new Error('The input date type is not supported ("Date" is now recommended)');
   }
 
   calendarStartOfWeek(date: Moment): Moment {
