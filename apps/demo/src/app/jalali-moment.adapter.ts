@@ -21,8 +21,8 @@ export class JalaliMomentDateAdapter extends NzDateAdapter<Moment> {
     return moment();
   }
 
-  deserialize(input: string | number): Moment {
-    return moment(new Date(input));
+  deserialize(input: string | number): Moment {
+    return moment(new Date(input));
   }
 
   calendarStartOfWeek(date: Moment): Moment {
