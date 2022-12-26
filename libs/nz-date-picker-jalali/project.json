@@ -37,6 +37,13 @@
           "libs/nz-date-picker-jalali/**/*.html"
         ]
       }
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./libs/nz-date-picker-jalali/release.config.js"
+      }
     }
   },
   "tags": []
