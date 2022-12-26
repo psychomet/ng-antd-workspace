@@ -14,7 +14,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychomet/ng-antd-workspace"
+    "url": "https://github.com/psychomet/ng-antd-workspace.git",
+    "directory": "libs/nz-date-picker-jalali"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "@angular/common": "^15.0.0",
