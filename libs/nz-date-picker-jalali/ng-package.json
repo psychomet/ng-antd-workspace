@@ -4,5 +4,11 @@
   "lib": {
     "entryFile": "src/index.ts"
   },
-  "allowedNonPeerDependencies": ["tslib", "angular", "date-fns", "@ant-design/icons-angular", "ng-zorro-antd"]
+  "allowedNonPeerDependencies": [
+    "tslib",
+    "angular",
+    "date-fns",
+    "@ant-design/icons-angular",
+    "ng-zorro-antd"
+  ]
 }

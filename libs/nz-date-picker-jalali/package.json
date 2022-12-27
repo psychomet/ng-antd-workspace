@@ -10,7 +10,8 @@
     "frontend",
     "jalali",
     "persian",
-    "datepicker"
+    "datepicker",
+    "test"
   ],
   "repository": {
     "type": "git",

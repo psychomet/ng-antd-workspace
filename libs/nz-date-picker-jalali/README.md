@@ -19,12 +19,13 @@ Angular DatePicker component library based on Ant Design.
 </div>
 
 ## [Demo](https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html)
+
 View DatePickerJalali in action at [https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html](https://stackblitz.com/edit/angular-ivy-ymn31f?embed=1&file=src/app/app.component.html)
 <img src="https://user-images.githubusercontent.com/42533472/171279996-75478af5-7977-4845-bf56-846c448308ae.gif" alt="jalali-date-picker" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ## 🖥 Environment Support
 
-* Angular `^14.0.0` [![npm package](https://img.shields.io/npm/v/ng-zorro-antd.svg?style=flat-square)](https://www.npmjs.org/package/ng-zorro-antd)
+- Angular `^14.0.0` [![npm package](https://img.shields.io/npm/v/ng-zorro-antd.svg?style=flat-square)](https://www.npmjs.org/package/ng-zorro-antd)
 
 ## 📦 Installation
 
@@ -46,24 +47,25 @@ $ npm install ng-zorro-antd
 $ npm install nz-date-picker-jalali
 ```
 
-
 ## Provide custom DateAdapter
+
 If you need to present another calendar like [Jalali](https://en.wikipedia.org/wiki/Jalali_calendar) or [Hijri](https://en.wikipedia.org/wiki/Islamic_calendar), you can provide a custom NzDateAdapter which implements required methods to deal with native date object.
 
 ### Example
+
 ```ts
 import { NzDateAdapter } from 'nz-date-picker-jalali';
 
 export class CustomDateAdapter extends NzDateAdapter<any> {
-    // implementation of abstract methods
+  // implementation of abstract methods
 }
 
 @NgModule({
-  providers: [
-    {provide: NzDateAdapter, useClass: CustomDateAdapter}
-  ]
+  providers: [{ provide: NzDateAdapter, useClass: CustomDateAdapter }],
 })
 export class AppModule {}
 ```
+
 #### Sample
+
 [Jalali-Moment date adapter](https://gist.github.com/psychomet/22798ab7552b38751ac44a665fe1c512)

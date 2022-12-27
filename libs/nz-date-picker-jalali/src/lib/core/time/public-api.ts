@@ -6,6 +6,4 @@
 export * from './candy-date';
 export * from './date-adapter';
 export * from './time';
-export {
-  NgTimeParser
-} from './time-parser';
+export { NgTimeParser } from './time-parser';

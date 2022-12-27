@@ -5,5 +5,4 @@
 
 export * from './public-api';
 
-export class ɵNgTimeParser {
-}
+export class ɵNgTimeParser {}
